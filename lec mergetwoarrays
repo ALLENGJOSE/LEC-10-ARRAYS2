@@ -24,7 +24,7 @@ public class Mergetwoarrays {
 		}
 		
 		while(j < arr2.length) {
-			ans[k] = arr2[i];
+			ans[k] = arr2[j];
 			k++;
 			j++;
 			
@@ -38,4 +38,6 @@ public class Mergetwoarrays {
 		int ans[] = merge(arr1, arr2);
 		for(int i = 0 ; i < ans.length ; i++ ) {
 			System.out.print(ans[i] + " ");
+		}
+		System.out.println();
 		}
